@@ -1,0 +1,19 @@
+{
+  "name": "widget-o-template",
+  "version": "0.0.0",
+  "authors": [
+    "Sebastian Misiewicz <sebastian@sebastianmisiewicz.info>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "widget-o": "*",
+    "bootstrap": "~3.3.5"
+  }
+}

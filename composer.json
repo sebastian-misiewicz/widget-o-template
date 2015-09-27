@@ -1,0 +1,5 @@
+{
+    "require": {
+        "widget-o/widget-o-php": "dev-master"
+    }
+}
