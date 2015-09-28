@@ -7,13 +7,11 @@
 ## How to use
 1. Clone or download the files from repository.
 1. Get the *bower* dependencies 
-   
-```bash
+   ```bash
    bower update
    ```
 1. Get the *composer* dependencies
-   
-```bash
+   ```bash
    composer update
    ```
 1. Create a database and run the creation script (vendor/widget-o/widget-o-php/sql/create.sql)
