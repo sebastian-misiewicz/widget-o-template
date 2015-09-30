@@ -49,10 +49,8 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a onclick="showLoginModal()">Log in</a>
-                    </li>
+                <div ng-show="renderWidgets('topMenu')">
+                <ul id="topMenu" class="nav navbar-nav widget-o-managable">
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -71,6 +69,7 @@
                     <li>Bootstrap v3.3.1</li>
                     <li>jQuery v1.11.1</li>
                 </ul>
+                <p><a onclick="showLoginModal()">Log in</a></p>
             </div>
         </div>
         <!-- /.row -->
@@ -107,6 +106,8 @@
     
     <script src="bower_components/widget-o/dist/app.js"></script>
     
+    <!-- Specific widgets - non-framework -->
+    <script src="widgets/top-menu.js"></script>
     <script>
         widgeto.run(function (PageCache) {
             PageCache.setIdPage("{idpage}");
