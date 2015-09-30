@@ -121,12 +121,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastian-misiewicz/widget-o-php.git",
-                "reference": "b671189cbfd49d9dc521cbf427605cafa35cf5eb"
+                "reference": "36ecd5a39b49c51fffe0de40e6309c55ab0725bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastian-misiewicz/widget-o-php/zipball/b671189cbfd49d9dc521cbf427605cafa35cf5eb",
-                "reference": "b671189cbfd49d9dc521cbf427605cafa35cf5eb",
+                "url": "https://api.github.com/repos/sebastian-misiewicz/widget-o-php/zipball/36ecd5a39b49c51fffe0de40e6309c55ab0725bd",
+                "reference": "36ecd5a39b49c51fffe0de40e6309c55ab0725bd",
                 "shasum": ""
             },
             "require": {
@@ -140,7 +140,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2015-09-27 12:46:39"
+            "time": "2015-09-29 17:56:52"
         }
     ],
     "packages-dev": [],
