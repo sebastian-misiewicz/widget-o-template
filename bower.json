@@ -13,7 +13,7 @@
     "tests"
   ],
   "dependencies": {
-    "widget-o": "*",
+    "widget-o": "0.17",
     "bootstrap": "~3.3.5"
   }
 }
